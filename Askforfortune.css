@@ -1,0 +1,84 @@
+body {
+    width: 99%;
+    background: url("https://assets.teenvogue.com/photos/60c0cd85df1a3f4fe5cef799/16:9/w_2560%2Cc_limit/GettyImages-1289813539.jpg") no-repeat center center fixed;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    
+}
+
+a {
+    color: rgb(120, 57, 149)		;
+}
+
+.container #legend {
+    border: none;
+    width: 400px;
+    text-align: center;
+    border-radius: 7px;
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 25px;
+    background-color: rgb(227, 182, 47);
+    display: block;
+    color: rgb(120, 57, 149);
+}
+
+#legend span {
+    font-weight: 1000;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0 auto;
+    border: 5px solid rgb(151, 126, 12);
+    display: inline-block;
+    border-radius: 15px;
+    background-color: rgb(227, 182, 47);
+    padding: 20px;
+}
+
+
+
+.nav li {
+    display: inline-block;
+    /*border: 5px solid black;*/
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.nav ul {
+    padding-left: 1500px;
+}
+
+textarea {
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 25px;
+    font-size: 40px;
+    padding-right: 200px;
+    padding-left: 200px;
+    text-align: center;
+}
+
+#submit_button { 
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 20px  35px;
+    font-size: 50px;
+    background-color: rgb(227, 182, 47);
+    margin: 100px 0px 0px 0px;
+    color:rgb(120, 57, 149);
+}
+
+form {
+    margin: 150px 0px 0px 0px;
+}

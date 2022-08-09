@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(214, 126, 228);
+}
+
+.header {
+    text-align: center;
+    font-size: 30px;
+    border: 5px solid rgb(151, 126, 12);
+    border-radius: 20px;
+    background-color: rgb(227, 182, 47);
+    display: inline-block;
+    margin-top: 20px;
+}
+
+a {
+    color: rgb(120, 57, 149);
+}
+
+
+p, #write {
+    margin-bottom: 20px;
+    font-size: 27px;
+    
+}
+
+
+
+/*display 1 */
+#display img{
+    width: 50%;
+    
+}
+
+#display p {
+    font-size: 18px;
+}
+
+#display h3 
+{
+    font-size: 22px;
+}
+
+
+#display {
+    text-align: center;
+    vertical-align: text-top;
+    width: 500px;
+}
+
+/*display 2 */
+#display_2 img {
+    width: 50%
+}
+
+#display_2 p {
+    font-size: 18px;
+}
+
+#display_2 h3 {
+    font-size: 22px;
+}
+
+#display_2 {
+    text-align: center;
+    vertical-align: text-top;
+    width: 500px;
+}
+
+
+/*display 3 */
+#display_3 img {
+    width: 50%
+}
+
+#display_3 p {
+    font-size: 18px;
+}
+
+#display_3 h3 {
+    font-size: 22px;
+}
+
+#display_3 {
+    text-align: center;
+    vertical-align: text-top;
+    width: 500px;
+}
+
+
+#display, #display_2, #display_3{
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.container {
+    text-align: center;
+}
+
+
+#draw {
+    display:block;
+    margin: 200px auto;
+    border: none;
+    cursor: pointer;
+    font-size: 50px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+    background-color: rgb(227, 182, 47);
+    color: rgb(120, 57, 149);
+}

@@ -1,0 +1,48 @@
+<!--
+0.0.0 8/4/2022 J.L 
+1. Initial Release 
+
+0.0.1 8/5/2022 J.L
+1. Added Navigation tabs 
+2. Fixed bug where the user input was none but it would still go to the Tarot shop
+3. Fixed bug where the application would run but there would be coding error in the console
+4. Realigned and redesigned the Tarot Shop
+
+0.1.1 8/8/2022 J.L
+1. Got rid of navigation tabs (no use)
+2. Added the enter key function. Users can now press enter instead of clicking on the submit button to go to the Tarot page
+3. Added and explained what the web app does.
+4. Changed the background of both the home and tarot page.
+5. Added the input text from user on home page to tarot page.
+6. Fixed bugs of description of cards
+
+
+-->
+
+
+
+<!--Developed a social Tarot web application using html, css, and vanilla javscript-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jason's fortune Website</title>
+        <link href="Askforfortune.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class='container'>
+            <h3 id="legend">Type a question, a paragraph, a word — anything that <span>you</span> want solved. Then click "Submit" to see your fate.</h3>
+            <div class='container_2'>
+                <h1><a href="index.html" style="text-decoration:none">Search Your Fate.</a></h1>
+
+                <form autocomplete="off" action="Askforfortune2.html" method="GET">
+                    <textarea name='text' id="input" style="width: 800px;" placeholder="What do you want to tell your fortune teller?" type="text" required></textarea>
+                    <input  type="submit" id="submit_button">
+                </form>
+            </div>
+        </div>
+        <script src="Askforfortune2.js"></script>  
+    </body>
+</html>
+
